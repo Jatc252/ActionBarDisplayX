@@ -30,7 +30,7 @@ jobs:
 
     - name: Build with Gradle Wrapper
       run: |
-        chmod +x ./gradlew
+        chmod +x gradlew
         ./gradlew build
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.6.2
