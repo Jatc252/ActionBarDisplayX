@@ -1,0 +1,8 @@
+name: ActionBarDisplayX
+version: 1.0.0
+main: com.jatc251.ActionBarDisplayX.ActionBarDisplayX
+api-version: 1.13
+commands:
+  reloadactionbar:
+    description: Reloads the action bar message from the config.
+    usage: /reloadactionbar
